@@ -1,0 +1,42 @@
+---
+title: "Ejercicios de Estadística"
+author: "C.C."
+date: "Mayo de 2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Tabla de ejemplo
+La siguiente tabla es la que utilizaremos para los distintos ejemplos.  Orientación ideológica ("Izquiera", "Centro", "Derecha") distribuida según sexo.
+
+```{r, echo=FALSE}
+
+pos <- factor(c("I","I","I","I","I","C","C","C","C","C","D","D","D","D","D"),levels=c("I","C","D"))
+sex <- c(1,1,1,2,2,1,1,1,2,2,1,2,2,2,2)
+
+
+tabla <- data.frame(pos,sex)
+
+
+table(tabla)
+
+
+
+
+```
+
+## Asociación Bivariable
+
+Por convención en una tabla se suele situar la variable dependiente en las filas y la variable independiente en las columnas. A la hora de calcular los porcentajes, se realiza en el sentido del factor "causal" o de la variable independiente.
+
+```{r, echo=FALSE}
+prop.table(table(tabla))
+prop.table(table(tabla),1)
+prop.table(table(tabla),2)
+
+```
+
+
