@@ -30,7 +30,9 @@ table(tabla)
 
 ## Asociación Bivariable
 
+
 Por convención en una tabla se suele situar la variable dependiente en las filas y la variable independiente en las columnas. A la hora de calcular los porcentajes se realiza en el sentido del factor "causal" o de la variable independiente.
+
 
 ```{r, echo=FALSE}
 prop.table(table(tabla))
@@ -40,3 +42,40 @@ prop.table(table(tabla),2)
 ```
 
 
+La diferencia entre porcentajes de las categorías independiente dentro de los valores de la variable dependiente se llama: _epsilon_ 
+
+Ej.
+$\epsilon = (42.9 - 25.0) = 17.9 por 100)$
+
+Se puede caracterizar la relación entre dos variables mediante el estudio de las siguientes caracteristicas:
+- existencia (o no) de la asociación 
+- fuerza de la asociación 
+- dirección de la asociación 
+- naturaleza de la asociación 
+
+## 1) existencia (o no) de la asociación 
+Existe una asociación entre dos variables cuando las correspondientes distribuciones condicionales porcentuales difieren en mayor o menor grado entre sí. 
+Cuando hay asociación entre dos variables la mayor parte de los epsilon calculados son diferentes de 0. 
+Otra forma de establecer la asociación es comparar las frecuencias observadas con las frecuencias que cabría esperar si no existiera relación.
+
+Formula de Frecuencias Esperadas 
+$feij =  \frac{ni\cdot nj}{N}$
+
+Una vez calculados los valores esperados en cada casilla, se pueden comparar los valores observados de la tabla (fo) con los valores esperados (fe). La comparación se realiza restando el valor esperado de cada celdilla del valor observado de la celdilla correspondiente. Este valor se denomina _delta_ $\Delta=fo-fe$  
+Si todos los deltas son cero, entonces existe independencia estadística entre las variables. 
+
+```{r}
+tabulacion <- table(tabla)
+
+chq <- chisq.test(tabulacion)
+
+chq$observe
+chq$expected
+
+ 
+chq$observed - chq$expected
+ 
+ 
+```
+
+ 
