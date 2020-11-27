@@ -6,7 +6,7 @@ García Ferrando, M. (2003). *Socioestadística. Introducción a la Estadística
 ## Índice
 - [Capítulo 1. *El análisis estadístico de los datos sociológicos*](01_%20El%20an%C3%A1lisis%20estad%C3%ADstico%20de%20los%20datos%20sociol%C3%B3gicos.ipynb)
 - [Capítulo 2. *Estadística descriptiva univariable: La lógica del análisis comparativo*](02_%20Estadística%20descriptiva%20univariable%20la%20lógica%20del%20análisis%20comparativo.ipynb)
-- Capítulo 3. *Carácteristicas de una distribución de frecuencias: Tendencia central, dispersión y forma. La distribución normal*
+- [Capítulo 3. *Carácteristicas de una distribución de frecuencias: Tendencia central, dispersión y forma. La distribución normal*](03_%20Caracteristicas%20de%20una%20distribución%20de%20frecuencias.ipynb)
 - Capítulo 4. *Estadística inferencial: Probabilidades y tipos de muestreo*
 - Capítulo 5. *El empleo de las pruebas de decisión estadística en la investigación social. Distribuciones muestrales*
 - Capítulo 6. *Pruebas de decisión estadística para el caso de una sola muestra*
