@@ -8,7 +8,7 @@ García Ferrando, M. (2003). *Socioestadística. Introducción a la Estadística
 - [Capítulo 2. *Estadística descriptiva univariable: La lógica del análisis comparativo*](02_%20Estadística%20descriptiva%20univariable%20la%20lógica%20del%20análisis%20comparativo.ipynb)
 - [Capítulo 3. *Carácteristicas de una distribución de frecuencias: Tendencia central, dispersión y forma. La distribución normal*](03_%20Caracteristicas%20de%20una%20distribución%20de%20frecuencias.ipynb)
 - [Capítulo 4. *Estadística inferencial: Probabilidades y tipos de muestreo*](04_%20Estad%C3%ADstica%20Inferencial%20probabilidades%20y%20tipos%20de%20muestreo.ipynb)
-- Capítulo 5. *El empleo de las pruebas de decisión estadística en la investigación social. Distribuciones muestrales*
+- [Capítulo 5. *El empleo de las pruebas de decisión estadística en la investigación social. Distribuciones muestrales*](05_%20El%20empleo%20de%20las%20pruebas%20de%20decisión%20estadística%20en%20la%20investigación%20social.ipynb)
 - Capítulo 6. *Pruebas de decisión estadística para el caso de una sola muestra*
 - Capítulo 7. *Estadística descriptiva bivariable: Características de una asociación bivariable*
 - Capítulo 8. *Medidas de asociación para variables nominales y ordinales*
