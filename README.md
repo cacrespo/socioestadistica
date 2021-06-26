@@ -11,7 +11,7 @@ García Ferrando, M. (2003). *Socioestadística. Introducción a la Estadística
 - [Capítulo 5. *El empleo de las pruebas de decisión estadística en la investigación social. Distribuciones muestrales*](05_%20El%20empleo%20de%20las%20pruebas%20de%20decisión%20estadística%20en%20la%20investigación%20social.ipynb)
 - [Capítulo 6. *Pruebas de decisión estadística para el caso de una sola muestra*](06_%20Pruebas%20de%20decision%20estadistica%20para%20el%20caso%20de%20una%20sola%20muestra.ipynb)
 - [Capítulo 7. *Estadística descriptiva bivariable: Características de una asociación bivariable*](07_%20Estad%C3%ADstica%20descriptiva%20bivariable%20caracter%C3%ADsticas%20de%20una%20asociación%20bivariable.ipynb)
-- Capítulo 8. *Medidas de asociación para variables nominales y ordinales*
+- [Capítulo 8. *Medidas de asociación para variables nominales y ordinales*](08_%20Medidas%20de%20asociacion%20para%20variables%20nominales%20y%20ordinales.ipynb)
 - Capítulo 9. *Medidas de asociación para variables de intervalo: Regresión y correlación*
 - Capítulo 10. *Pruebas de decisión para el caso de dos muestras*
 - Capítulo 11. *El análisis de varianza*
